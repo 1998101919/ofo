@@ -1,0 +1,29 @@
+/* page/billing/index.wxss */
+.container{
+  width:100%;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header, .footer{
+  flex: 1;
+  padding: 50rpx 0rpx;
+  width:90%;
+  height: 100%;
+  text-align: center;
+}
+.content{
+  flex: 6;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+.content .timer{
+  margin-top: 40rpx;
+  font-size: 100rpx;
+}
+.footer button{
+  margin-top: 20rpx;
+}

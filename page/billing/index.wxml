@@ -1,0 +1,14 @@
+<!--page/billing/index.wxml-->
+<view class='container'>
+<view class='header'>
+<text>当前单车编号:{{num}}</text>
+</view>
+<view class='content'>
+<view class='beBilling'>{{endRide}}</view>
+<view class='timer'>{{hours}}:{{minutes}}:{{seconds}}</view>
+</view>
+<view class='footer'>
+<button type='warn' bindtap='endRide' disabled='{{key}}'>结束骑行</button>
+<button type='primary' bindtap='toIndex'>回到首页</button>
+</view>
+</view>

@@ -1,0 +1,86 @@
+/* page/warn/index.wxss */
+.container{
+  width:100%;
+  height:100vh;
+}
+.choose{
+  background-color: #fff;
+}
+.choose .title{
+  width:100%;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.choose-grids{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50rpx;
+}
+.choose-grids .grid{
+  width:45%;
+  height: 80rpx;
+  padding: 20rpx 0rpx;
+  border:1px solid #b9dd08;
+  text-align: center;
+  line-height: 80rpx;
+  margin-top: 30rpx;
+  border-radius: 10rpx;
+}
+
+.action .title{
+  font-size: 28rpx;
+  background-color: #f2f2f2;
+  padding: 40rpx 0rpx 40rpx 50rpx;
+}
+.action .action-photo{
+  background-color: #fff;
+	padding: 40rpx 0px 40rpx 0rpx;
+}
+.action .action-photo image{
+  position: relative;
+  display: inline-block;
+	width: 120rpx;
+	height: 120rpx;
+  overflow: visible;
+  margin-left: 25rpx;
+}
+.action .action-photo image:first-child{
+  margin-left: 50rpx;
+}
+.action .action-photo image icon{
+	display: block;
+	position: absolute;
+	top: -20rpx;
+	right: -20rpx;
+}
+.action .action-photo .add{
+  width:120rpx;
+  height:120rpx;
+  display: inline-block;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 120rpx;
+  padding: 5rpx 10rpx;
+  border:1px dotted #ccc;
+  vertical-align: top;
+   margin-left: 25rpx; 
+  color: #ccc;
+}
+.action .action-photo .hr{
+  margin-top: 40rpx;
+  width: 100%;
+  height: 30rpx;
+  background: #f2f2f2;
+}
+.action-input{
+  margin-left: 50rpx;
+  padding: 30rpx;
+}
+.action-input input{
+  width: 90%;
+  border-bottom: 2px solid #ccc;
+  font-size: 28rpx;
+  padding: 10rpx 0rpx 10rpx 20rpx;
+  margin-bottom: 12rpx;
+}

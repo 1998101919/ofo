@@ -1,0 +1,28 @@
+/* page/recharge/index.wxss */
+.container{
+  width:100%;
+  height: 100vh;
+  background: #f2f2f2;
+}
+.recharge-header{
+  padding-top: 60rpx;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+}
+.input{
+  width: 80%;
+  text-align: center;
+  margin:0 auto;  
+}
+input{
+  background: #fff;
+  padding: 30rpx;
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.btn{
+  width:80%;
+  text-align: center;
+  background: #b9dd08;
+}
