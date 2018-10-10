@@ -7,5 +7,4 @@
 ![image](https://github.com/1998101919/ofo/blob/master/images/show-ofo3.png)
 ![image](https://github.com/1998101919/ofo/blob/master/images/show-ofo4.png)
 ![image](https://github.com/1998101919/ofo/blob/master/images/show-ofo5.png)
-![image](https://github.com/1998101919/ofo/blob/master/images/show-ofo6.png)
 
